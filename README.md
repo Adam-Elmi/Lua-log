@@ -20,7 +20,7 @@ function lua.log(...)
         elseif type(v) == "table" then
             local tableContents = "{ "
             for key, value in pairs(v) do
-                tableContents = tableContents .. tostring(key) .. ": " .. tostring(value) .. " "
+                tableContents = tableContents .. tostring(key) .. "= " .. tostring(value) .. " "
             end
             tableContents = tableContents .. "}"
             result = result .. tableContents .. " "
