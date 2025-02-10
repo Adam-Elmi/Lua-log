@@ -34,7 +34,7 @@ lua.log(42, "Hello", true, { name = "Lua" })
 ```
 ### Output:
 ```
-42 Hello true { name: Lua }
+42 Hello true { name= Lua }
 ```
 
 ## JavaScript `console.log()`
