@@ -7,3 +7,4 @@ lua.log({
         name = "Yuhan"
     }
 })
+-- NESTED table is not supported yet
